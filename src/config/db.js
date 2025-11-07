@@ -11,3 +11,5 @@ export const db = await mysql.createConnection({
 });
 
 console.log("✅ Conectado ao banco de dados dblivraria!");
+
+export default db;

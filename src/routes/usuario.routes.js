@@ -3,9 +3,9 @@ import{
     listaUsuario,
     obterUsuario,
     atualizarUsuario,
-    deletarUsuario} from '../controllers/usuario.controller.js';
+    deletarUsuario} from "../controllers/usuario.controller.js";
 
-import express from 'express';
+import express from "express";
 
 const router = express.Router();
 
